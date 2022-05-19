@@ -86,7 +86,7 @@ div img{
 }
 
 
-.texto-apresentacao a{
+.btn{
     background-color: #122A57;
     color: #ffff;
     border-radius: 30px;
@@ -160,7 +160,7 @@ div img{
 
 .list-servicos{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     
     
     
@@ -206,18 +206,59 @@ div img{
     margin: auto;
 }
 
+#planos{
+    flex-direction: column;
+    min-height: 100vh;
 
 
 
-
-footer{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    padding: 0;
 }
 
-footer p {
+.list-planos{
+    display: flex;
+    align-items: flex-end;
+}
 
-    padding: 3px;
+.item-plano{
+    flex: 1;
+    border: 5px solid #122A57;
+    margin-right: 20px;
+    padding: 10px;
+
+}
+
+.item-plano .btn{
+    margin: auto;
+    margin-bottom: 20px;
+
+}
+
+
+.item-plano h3{
+
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #122A57;
+    
+
+}
+
+.item-plano h3::after{
+    content: "";
+    background-color: #122A57 ;
+    width: 100%;
+    height: 3px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+
+
+}
+
+.item-plano ul{
+
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
 }
