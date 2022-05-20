@@ -209,14 +209,19 @@ div img{
 #planos{
     flex-direction: column;
     min-height: 100vh;
+    padding-top: 50px;
 
 
 
+}
+#planos h2{
+    font-size: 32px;
 }
 
 .list-planos{
     display: flex;
     align-items: flex-end;
+    justify-content: space-between;
 }
 
 .item-plano{
@@ -224,6 +229,7 @@ div img{
     border: 5px solid #122A57;
     margin-right: 20px;
     padding: 10px;
+    max-width: 240px;
 
 }
 
@@ -241,6 +247,7 @@ div img{
     flex-direction: column;
     text-align: center;
     color: #122A57;
+    margin-top: 20px;
     
 
 }
@@ -261,4 +268,33 @@ div img{
     padding: 10px 20px;
     display: flex;
     flex-direction: column;
+    color: #122A57;
+    margin-bottom: 10px;
+    
+}
+
+.item-plano ul li{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    
+}
+
+.item-plano ul li::before{
+    content:"" ;
+    width: 10px;
+    height: 10px;
+    background-color: #122A57;
+    margin-right: 5px;
+   
+}
+
+footer{
+    background-color: #122A57;
+    
+    height: 50px;
+}
+footer .footer{
+    justify-content: space-between;
+    color: #ffff;
 }
