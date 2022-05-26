@@ -291,10 +291,9 @@ div img{
 
 footer{
     background-color: #122A57;
-    
-    height: 50px;
-}
-footer .footer{
-    justify-content: space-between;
     color: #ffff;
+    height: 50px;
+    text-align: right;
+    padding-right: 25px ;
+    
 }
